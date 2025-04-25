@@ -1,0 +1,1707 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>no title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}code[class*=language-],pre[class*=language-]{color:#c9d1d9;text-shadow:none;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::mozselection,code[class*=language-]::selection,pre[class*=language-]::mozselection,pre[class*=language-]::selection{text-shadow:none;background:#234879}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;background:#161b22}:not(pre)>code[class*=language-]{padding:.1em .3em;border-radius:.3em;color:#c9d1d9;background:#343942}pre[data-line]{position:relative}pre[class*=language-]>code[class*=language-]{position:relative;z-index:1}.line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:#2f2a1e;box-shadow:inset 5px 0 0 #674c16;z-index:0;pointer-events:none;line-height:inherit;white-space:pre}.namespace{opacity:.7}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#8b949e}.token.punctuation{color:#c9d1d9}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#79c0ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a5d6ff}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#a5d6ff}.token.atrule,.token.attr-value,.token.keyword{color:#f97583}.token.function{color:#d2a8ff}.token.important,.token.regex,.token.variable{color:#79b8ff}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.emoji{height:.8em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#ccc;background-color:#24292e;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#fff}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#a3a3a3}html body strong{color:#fff}html body del{color:#a3a3a3}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#a3a3a3;background-color:#363d45;border-left:4px solid #48525c}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#48525c;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#fff}html body table td,html body table th{border:1px solid #48525c;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#fff;background-color:#363d45;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#48525c;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#fff;border:1px solid #48525c;border-bottom:2px solid #3a424b;padding:2px 4px;background-color:#363d45;border-radius:3px}@media print{html body{background-color:#24292e}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#fff;page-break-after:avoid}html body blockquote{color:#a3a3a3}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}
+    /* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+    </style>
+    
+    <!-- The content below will be included at the end of the <head> element. --><html><head><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body></body></html>
+  </head>
+  <body for="html-export">
+    <div class="crossnote markdown-preview">
+    <html><head></head><body><div>
+<h3 id="1-how-to-print-output-in-java" ebook-toc-level-3="" heading="1. How to Print Output in Java ">1. How to Print Output in Java </h3>
+<h4 id="-key-concepts" ebook-toc-level-4="" heading="🧠 Key Concepts: ">🧠 Key Concepts: </h4>
+<ul>
+<li><code>System.out.print()</code> → Prints text without moving to the next line.</li>
+<li><code>System.out.println()</code> → Prints text and moves to the next line.</li>
+<li><code>System.out.printf()</code> → Prints formatted output using format specifiers.</li>
+</ul>
+<h4 id="-syntax" ebook-toc-level-4="" heading="🧮 Syntax: ">🧮 Syntax: </h4>
+<ol>
+<li><code>System.out.print("text");</code></li>
+<li><code>System.out.println("text");</code></li>
+<li><code>System.out.printf("format", values);</code>
+<ul>
+<li><code>%d</code> → integer</li>
+<li><code>%f</code> → float/double</li>
+<li><code>%s</code> → string</li>
+<li><code>%.2f</code> → float with 2 decimal places</li>
+</ul>
+</li>
+</ol>
+<h4 id="-points-to-remember" ebook-toc-level-4="" heading="✅ Points to Remember: ">✅ Points to Remember: </h4>
+<ul>
+<li>Every Java print statement ends with a semicolon <code>;</code>.</li>
+<li><code>println()</code> adds a line break automatically.</li>
+<li><code>printf()</code> gives control over output formatting.</li>
+<li>Use escape characters like <code>\n</code> (newline), <code>\t</code> (tab).</li>
+</ul>
+<h4 id="-example" ebook-toc-level-4="" heading="🧪 Example: ">🧪 Example: </h4>
+<p><strong>Q:</strong> Print "Hello" and "World" on separate lines<br>
+<strong>A:</strong></p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<h3 id="2-what-is-a-variable-in-java" ebook-toc-level-3="" heading="2. What is a Variable in Java? ">2. What is a Variable in Java? </h3>
+<h4 id="-key-concepts-1" ebook-toc-level-4="" heading="🧠 Key Concepts: ">🧠 Key Concepts: </h4>
+<ul>
+<li>Variables are containers used to store data values.</li>
+<li>Java requires you to declare the type of variable before using it.</li>
+<li>The type defines what kind of data the variable can hold.</li>
+</ul>
+<h4 id="-formulae-syntax" ebook-toc-level-4="" heading="🧮 Formulae (Syntax): ">🧮 Formulae (Syntax): </h4>
+<ol>
+<li><code>datatype variableName = value;</code></li>
+<li>Examples:
+<ul>
+<li><code>int age = 20;</code></li>
+<li><code>String name = "Rahul";</code></li>
+<li><code>float price = 99.5f;</code></li>
+</ul>
+</li>
+</ol>
+<h4 id="-points-to-remember-1" ebook-toc-level-4="" heading="✅ Points to Remember: ">✅ Points to Remember: </h4>
+<ul>
+<li>Variable names are case-sensitive and follow camelCase convention.</li>
+<li>Cannot start with numbers or use Java keywords.</li>
+<li>Use <code>int</code>, <code>double</code>, <code>char</code>, <code>boolean</code>, <code>String</code>, etc., based on the data type.</li>
+<li>Variables can be declared without assigning values initially.</li>
+</ul>
+<h4 id="-example-1" ebook-toc-level-4="" heading="🧪 Example: ">🧪 Example: </h4>
+<p><strong>Q:</strong> Declare a string and an integer variable, then print them<br>
+<strong>A:</strong></p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token class-name">String</span> city <span class="token operator">=</span> <span class="token string">"Mumbai"</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-int">int</span> population <span class="token operator">=</span> <span class="token number">20000000</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>city <span class="token operator">+</span> <span class="token string">" has population of "</span> <span class="token operator">+</span> population<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<h3 id="3-what-are-conditionals-in-java" ebook-toc-level-3="" heading="3. What are Conditionals in Java? ">3. What are Conditionals in Java? </h3>
+<h4 id="-key-concepts-2" ebook-toc-level-4="" heading="🧠 Key Concepts: ">🧠 Key Concepts: </h4>
+<ul>
+<li>Conditionals allow a program to make decisions based on certain conditions.</li>
+<li>Common conditional statements in Java are:
+<ul>
+<li><code>if</code></li>
+<li><code>if-else</code></li>
+<li><code>if-else if-else</code></li>
+<li><code>switch</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="-syntax-1" ebook-toc-level-4="" heading="🧮 Syntax: ">🧮 Syntax: </h4>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token comment">// if statement</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// code block</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// if-else</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// block if true</span>
+<span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token punctuation">{</span>
+    <span class="token comment">// block if false</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// if-else if-else</span>
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>condition1<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// block 1</span>
+<span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>condition2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// block 2</span>
+<span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token punctuation">{</span>
+    <span class="token comment">// default block</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// switch statement</span>
+<span class="token keyword keyword-switch">switch</span> <span class="token punctuation">(</span>expression<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-case">case</span> value1<span class="token operator">:</span>
+        <span class="token comment">// code</span>
+        <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-case">case</span> value2<span class="token operator">:</span>
+        <span class="token comment">// code</span>
+        <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-default">default</span><span class="token operator">:</span>
+        <span class="token comment">// default code</span>
+<span class="token punctuation">}</span>
+</code></pre><hr>
+<h3 id="4-what-are-loops-in-java" ebook-toc-level-3="" heading="4. What are Loops in Java? ">4. What are Loops in Java? </h3>
+<h4 id="-key-concepts-3" ebook-toc-level-4="" heading="🧠 Key Concepts: ">🧠 Key Concepts: </h4>
+<ul>
+<li>Loops are used to execute a block of code repeatedly.</li>
+<li>Java has three main types of loops:
+<ul>
+<li><code>for</code> loop — when number of iterations is known.</li>
+<li><code>while</code> loop — when the condition is checked before the block runs.</li>
+<li><code>do-while</code> loop — executes the block at least once, then checks the condition.</li>
+</ul>
+</li>
+</ul>
+<h4 id="-syntax-2" ebook-toc-level-4="" heading="🧮 Syntax: ">🧮 Syntax: </h4>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token comment">// for loop</span>
+<span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span>initialization<span class="token punctuation">;</span> condition<span class="token punctuation">;</span> update<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// code to run</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// while loop</span>
+<span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// code to run</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// do-while loop</span>
+<span class="token keyword keyword-do">do</span> <span class="token punctuation">{</span>
+    <span class="token comment">// code to run</span>
+<span class="token punctuation">}</span> <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<h3 id="5-how-to-take-input-in-java" ebook-toc-level-3="" heading="5. How to Take Input in Java? ">5. How to Take Input in Java? </h3>
+<h4 id="-key-concepts-4" ebook-toc-level-4="" heading="🧠 Key Concepts: ">🧠 Key Concepts: </h4>
+<ul>
+<li><strong>Input:</strong> Receiving data from the user during program execution.</li>
+<li><strong>Scanner Class:</strong> A built-in Java class (<code>java.util.Scanner</code>) used to read input from the keyboard.</li>
+<li><strong>Object Creation:</strong> Create a <code>Scanner</code> object to use its methods like <code>nextInt()</code>, <code>nextLine()</code>.</li>
+</ul>
+<h4 id="-syntax-3" ebook-toc-level-4="" heading="🧮 Syntax: ">🧮 Syntax: </h4>
+<ol>
+<li><strong>Import Scanner:</strong> <code>import java.util.Scanner;</code> (at the top of the file)</li>
+<li><strong>Create Scanner Object:</strong> <code>Scanner sc = new Scanner(System.in);</code></li>
+<li><strong>Read Input:</strong>
+<ul>
+<li><code>int num = sc.nextInt();</code> → Reads an integer</li>
+<li><code>double val = sc.nextDouble();</code> → Reads a decimal</li>
+<li><code>String text = sc.nextLine();</code> → Reads a line of text</li>
+</ul>
+</li>
+</ol>
+<h4 id="-points-to-remember-2" ebook-toc-level-4="" heading="✅ Points to Remember: ">✅ Points to Remember: </h4>
+<ul>
+<li>Always import <code>Scanner</code> before using it.</li>
+<li><code>System.in</code> connects the Scanner to the keyboard.</li>
+<li>After <code>nextInt()</code>, add <code>sc.nextLine()</code> to clear the buffer before reading a string.</li>
+<li>Close the Scanner with <code>sc.close();</code> when done (good practice).</li>
+</ul>
+<h4 id="-example-2" ebook-toc-level-4="" heading="🧪 Example: ">🧪 Example: </h4>
+<p><strong>Q:</strong> How do you take a user’s name (string) and age (integer) as input and print them?<br>
+<strong>A:</strong></p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-import">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> sc <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Enter your name: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">String</span> name <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Reads string first</span>
+        
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Enter your age: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-int">int</span> age <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Reads integer</span>
+        
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Name: "</span> <span class="token operator">+</span> name <span class="token operator">+</span> <span class="token string">", Age: "</span> <span class="token operator">+</span> age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        
+        <span class="token comment">// Scenario: Integer first, then String</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Enter your age: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        age <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Reads integer</span>
+        sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Clears leftover newline</span>
+        
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Enter your name: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        name <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Reads string</span>
+        
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Name: "</span> <span class="token operator">+</span> name <span class="token operator">+</span> <span class="token string">", Age: "</span> <span class="token operator">+</span> age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        sc<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><hr>
+<h1 id="-functions-in-java-aka-methods" ebook-toc-level-1="" heading="📘 Functions in Java (aka Methods) ">📘 Functions in Java (aka Methods) </h1>
+<p>In Java, a <strong>function</strong> is called a <strong>method</strong>. It is a <strong>block of code</strong> that performs a specific task and runs only when called.</p>
+<hr>
+<h2 id="-why-use-functions" ebook-toc-level-2="" heading="✅ Why Use Functions? ">✅ Why Use Functions? </h2>
+<ul>
+<li>🔁 Reusability of code</li>
+<li>📦 Modular design</li>
+<li>🧼 Cleaner and more readable code</li>
+<li>🛠️ Easy to debug and test</li>
+</ul>
+<hr>
+<h2 id="-basic-syntax" ebook-toc-level-2="" heading="📌 Basic Syntax ">📌 Basic Syntax </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code>returnType <span class="token function">functionName</span><span class="token punctuation">(</span>parameters<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// code to execute</span>
+  <span class="token keyword keyword-return">return</span> value<span class="token punctuation">;</span> <span class="token comment">// if returnType is not void</span>
+<span class="token punctuation">}</span>
+</code></pre><hr>
+<h2 id="-example-3" ebook-toc-level-2="" heading="🚀 Example ">🚀 Example </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-int">int</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> a<span class="token punctuation">,</span> <span class="token keyword keyword-int">int</span> b<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword keyword-return">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token comment">// Calling the function</span>
+<span class="token keyword keyword-int">int</span> result <span class="token operator">=</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// result = 8</span>
+</code></pre><hr>
+<h2 id="-types-of-functions-in-java" ebook-toc-level-2="" heading="🔤 Types of Functions in Java ">🔤 Types of Functions in Java </h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>📥 Parameterized</td>
+<td>Accepts arguments</td>
+</tr>
+<tr>
+<td>🚫 Non-Parameterized</td>
+<td>Doesn’t take any parameters</td>
+</tr>
+<tr>
+<td>🔁 With Return</td>
+<td>Returns a value</td>
+</tr>
+<tr>
+<td>🧱 Void (No Return)</td>
+<td>Performs a task but returns nothing (<code>void</code>)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-example-all-variants" ebook-toc-level-2="" heading="🧠 Example: All Variants ">🧠 Example: All Variants </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token comment">// 1. No parameters, no return</span>
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-void">void</span> <span class="token function">greet</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 2. With parameters, no return</span>
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-void">void</span> <span class="token function">greetUser</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello, "</span> <span class="token operator">+</span> name <span class="token operator">+</span> <span class="token string">"!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 3. No parameters, with return</span>
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-int">int</span> <span class="token function">getDefaultAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword keyword-return">return</span> <span class="token number">18</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 4. With parameters and return</span>
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-int">int</span> <span class="token function">square</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword keyword-return">return</span> x <span class="token operator">*</span> x<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><hr>
+<h2 id="-calling-methods" ebook-toc-level-2="" heading="🧪 Calling Methods ">🧪 Calling Methods </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token function">greet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                     <span class="token comment">// Calls method without parameters</span>
+<span class="token function">greetUser</span><span class="token punctuation">(</span><span class="token string">"Alice"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// Passes argument</span>
+<span class="token keyword keyword-int">int</span> age <span class="token operator">=</span> <span class="token function">getDefaultAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// Captures returned value</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token function">square</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 16</span>
+</code></pre><hr>
+<h2 id="️-access-modifiers" ebook-toc-level-2="" heading="⚙️ Access Modifiers ">⚙️ Access Modifiers </h2>
+<table>
+<thead>
+<tr>
+<th>Modifier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>public</code></td>
+<td>Accessible from anywhere</td>
+</tr>
+<tr>
+<td><code>private</code></td>
+<td>Accessible only within the same class</td>
+</tr>
+<tr>
+<td><code>protected</code></td>
+<td>Accessible in same package or subclass</td>
+</tr>
+<tr>
+<td>(default)</td>
+<td>Package-private (no keyword)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-static-vs-non-static-methods" ebook-toc-level-2="" heading="📘 Static vs Non-Static Methods ">📘 Static vs Non-Static Methods </h2>
+<ul>
+<li><strong>Static Method</strong>: Belongs to the class</li>
+<li><strong>Non-Static Method</strong>: Belongs to an object instance</li>
+</ul>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span> <span class="token comment">// No need to create object</span>
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-void">void</span> <span class="token function">display</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span>     <span class="token comment">// Need object to call</span>
+</code></pre><hr>
+<h2 id="-return-statement" ebook-toc-level-2="" heading="🧩 Return Statement ">🧩 Return Statement </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-return">return</span> value<span class="token punctuation">;</span>
+</code></pre><ul>
+<li>Ends the function</li>
+<li>Sends back result (if not <code>void</code>)</li>
+</ul>
+<hr>
+<h2 id="️-best-practices" ebook-toc-level-2="" heading="🛡️ Best Practices ">🛡️ Best Practices </h2>
+<ul>
+<li>📛 Use meaningful function names</li>
+<li>🧪 Keep functions small and focused</li>
+<li>♻️ Reuse logic through functions</li>
+<li>📚 Document with comments and JavaDoc</li>
+</ul>
+<hr>
+<h2 id="-interview-tip" ebook-toc-level-2="" heading="🧠 Interview Tip: ">🧠 Interview Tip: </h2>
+<blockquote>
+<p>"In Java, methods (functions) allow <strong>modular programming</strong>, making code more reusable, testable, and maintainable."</p>
+</blockquote>
+<hr>
+<h1 id="-number-systems-in-programming-java-focus" ebook-toc-level-1="" heading="🔢 Number Systems in Programming (Java Focus) ">🔢 Number Systems in Programming (Java Focus) </h1>
+<p>In programming and computer science, a <strong>number system</strong> defines how numbers are represented and manipulated. Java and most other programming languages support <strong>multiple number systems</strong>, mainly:</p>
+<table>
+<thead>
+<tr>
+<th>Number System</th>
+<th>Base</th>
+<th>Digits Used</th>
+<th>Common Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Binary</td>
+<td>2</td>
+<td>0, 1</td>
+<td>Low-level programming, bitwise</td>
+</tr>
+<tr>
+<td>Octal</td>
+<td>8</td>
+<td>0–7</td>
+<td>Legacy systems</td>
+</tr>
+<tr>
+<td>Decimal</td>
+<td>10</td>
+<td>0–9</td>
+<td>Human-readable numbers</td>
+</tr>
+<tr>
+<td>Hexadecimal</td>
+<td>16</td>
+<td>0–9 and A–F</td>
+<td>Memory addressing, colors</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-why-should-programmers-learn-number-systems" ebook-toc-level-2="" heading="✅ Why Should Programmers Learn Number Systems? ">✅ Why Should Programmers Learn Number Systems? </h2>
+<ul>
+<li>🔧 Bitwise operations</li>
+<li>📦 Data compression and encoding</li>
+<li>🎨 Color representation (Hex)</li>
+<li>📍 Memory and address manipulation</li>
+<li>🧠 Understanding how the computer processes data</li>
+</ul>
+<hr>
+<h2 id="-java-support-for-number-systems" ebook-toc-level-2="" heading="📌 Java Support for Number Systems ">📌 Java Support for Number Systems </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span> decimal <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>        <span class="token comment">// Decimal</span>
+<span class="token keyword keyword-int">int</span> binary <span class="token operator">=</span> <span class="token number">0b1101</span><span class="token punctuation">;</span>      <span class="token comment">// Binary (prefix 0b)</span>
+<span class="token keyword keyword-int">int</span> octal <span class="token operator">=</span> <span class="token number">0123</span><span class="token punctuation">;</span>         <span class="token comment">// Octal (prefix 0)</span>
+<span class="token keyword keyword-int">int</span> hex <span class="token operator">=</span> <span class="token number">0x1A3F</span><span class="token punctuation">;</span>         <span class="token comment">// Hexadecimal (prefix 0x)</span>
+</code></pre><hr>
+<h2 id="-general-rules-for-converting-number-systems" ebook-toc-level-2="" heading="🔄 General Rules for Converting Number Systems ">🔄 General Rules for Converting Number Systems </h2>
+<table>
+<thead>
+<tr>
+<th>From</th>
+<th>To</th>
+<th>Rule / Steps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decimal → Binary / Octal / Hex</td>
+<td>Divide the number by 2 / 8 / 16 repeatedly. Write down the remainders in reverse order.</td>
+<td></td>
+</tr>
+<tr>
+<td>Binary → Decimal</td>
+<td>Multiply each bit by powers of 2 from right to left, then add.</td>
+<td></td>
+</tr>
+<tr>
+<td>Octal → Decimal</td>
+<td>Multiply each digit by powers of 8 from right to left, then add.</td>
+<td></td>
+</tr>
+<tr>
+<td>Hex → Decimal</td>
+<td>Multiply each digit by powers of 16 from right to left, then add (A=10 to F=15).</td>
+<td></td>
+</tr>
+<tr>
+<td>Binary → Octal</td>
+<td>Group bits in 3s (right to left), convert each group to octal digit.</td>
+<td></td>
+</tr>
+<tr>
+<td>Binary → Hex</td>
+<td>Group bits in 4s (right to left), convert each group to hex digit.</td>
+<td></td>
+</tr>
+<tr>
+<td>Octal / Hex → Binary</td>
+<td>Convert each digit into 3-bit (Octal) or 4-bit (Hex) binary.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-conversion-example" ebook-toc-level-2="" heading="🧪 Conversion Example ">🧪 Conversion Example </h2>
+<h3 id="-decimal-to-binary" ebook-toc-level-3="" heading="🔸 Decimal to Binary ">🔸 Decimal to Binary </h3>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>Decimal: 13
+13 ÷ 2 = 6, remainder = 1
+6 ÷ 2 = 3, remainder = 0
+3 ÷ 2 = 1, remainder = 1
+1 ÷ 2 = 0, remainder = 1
+
+Binary = 1101
+</code></pre><h3 id="-binary-to-decimal" ebook-toc-level-3="" heading="🔸 Binary to Decimal ">🔸 Binary to Decimal </h3>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>Binary: 1101
+= 1×2³ + 1×2² + 0×2¹ + 1×2⁰
+= 8 + 4 + 0 + 1 = 13
+</code></pre><hr>
+<h2 id="-java-methods-for-conversion" ebook-toc-level-2="" heading="🧪 Java Methods for Conversion ">🧪 Java Methods for Conversion </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">toBinaryString</span><span class="token punctuation">(</span><span class="token number">13</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// "1101"</span>
+<span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">toOctalString</span><span class="token punctuation">(</span><span class="token number">13</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// "15"</span>
+<span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">toHexString</span><span class="token punctuation">(</span><span class="token number">13</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// "d"</span>
+
+<span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">"1101"</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 13</span>
+<span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">"15"</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 13</span>
+<span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">"d"</span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 13</span>
+</code></pre><hr>
+<h2 id="-summary-table" ebook-toc-level-2="" heading="🧠 Summary Table ">🧠 Summary Table </h2>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Base</th>
+<th>Prefix</th>
+<th>Java Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decimal</td>
+<td>10</td>
+<td>None</td>
+<td><code>int x = 100;</code></td>
+</tr>
+<tr>
+<td>Binary</td>
+<td>2</td>
+<td><code>0b</code></td>
+<td><code>int x = 0b1010;</code></td>
+</tr>
+<tr>
+<td>Octal</td>
+<td>8</td>
+<td><code>0</code></td>
+<td><code>int x = 012;</code></td>
+</tr>
+<tr>
+<td>Hexadecimal</td>
+<td>16</td>
+<td><code>0x</code></td>
+<td><code>int x = 0x1F;</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-real-life-applications" ebook-toc-level-2="" heading="💬 Real-Life Applications ">💬 Real-Life Applications </h2>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Number System</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>File permissions</td>
+<td>Octal</td>
+</tr>
+<tr>
+<td>IP/MAC addresses</td>
+<td>Hexadecimal</td>
+</tr>
+<tr>
+<td>Color Codes (#fff)</td>
+<td>Hexadecimal</td>
+</tr>
+<tr>
+<td>Bitmasking/flags</td>
+<td>Binary</td>
+</tr>
+<tr>
+<td>Calculations</td>
+<td>Decimal</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<blockquote>
+<p>🔑 Mastering number systems builds the foundation for understanding how data is stored, processed, and optimized in programming.</p>
+</blockquote>
+<h1 id="-arrays-in-java--complete-notes" ebook-toc-level-1="" heading="📚 Arrays in Java – Complete Notes ">📚 Arrays in Java – Complete Notes </h1>
+<p>In Java, an <strong>array</strong> is a <strong>container object</strong> that holds a fixed number of values of a <strong>single data type</strong>. Arrays are used to store multiple values in a <strong>single variable</strong>, instead of declaring separate variables for each value.</p>
+<hr>
+<h2 id="-key-characteristics-of-arrays" ebook-toc-level-2="" heading="✅ Key Characteristics of Arrays ">✅ Key Characteristics of Arrays </h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fixed Size</td>
+<td>Size is set when the array is created and cannot change.</td>
+</tr>
+<tr>
+<td>Zero-based Indexing</td>
+<td>First element is at index <code>0</code>, last at <code>length - 1</code>.</td>
+</tr>
+<tr>
+<td>Homogeneous Elements</td>
+<td>All elements must be of the same data type.</td>
+</tr>
+<tr>
+<td>Stored in Contiguous Memory</td>
+<td>Array elements are stored next to each other in memory.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-array-declaration-and-initialization" ebook-toc-level-2="" heading="🔧 Array Declaration and Initialization ">🔧 Array Declaration and Initialization </h2>
+<h3 id="-syntax-4" ebook-toc-level-3="" heading="🔹 Syntax ">🔹 Syntax </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code>dataType<span class="token punctuation">[</span><span class="token punctuation">]</span> arrayName<span class="token punctuation">;</span>           <span class="token comment">// Declaration</span>
+arrayName <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> dataType<span class="token punctuation">[</span>size<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// Memory allocation</span>
+</code></pre><h3 id="-combined-declaration-and-allocation" ebook-toc-level-3="" heading="🔹 Combined Declaration and Allocation ">🔹 Combined Declaration and Allocation </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> numbers <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// Array of size 5</span>
+</code></pre><h3 id="-initialize-with-values" ebook-toc-level-3="" heading="🔹 Initialize with Values ">🔹 Initialize with Values </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> marks <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">90</span><span class="token punctuation">,</span> <span class="token number">85</span><span class="token punctuation">,</span> <span class="token number">88</span><span class="token punctuation">,</span> <span class="token number">76</span><span class="token punctuation">,</span> <span class="token number">95</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<h2 id="-accessing-and-modifying-elements" ebook-toc-level-2="" heading="📐 Accessing and Modifying Elements ">📐 Accessing and Modifying Elements </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>marks<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Access first element</span>
+
+marks<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>               <span class="token comment">// Modify 3rd element</span>
+</code></pre><blockquote>
+<p>⚠️ Accessing an index out of bounds will throw <code>ArrayIndexOutOfBoundsException</code>.</p>
+</blockquote>
+<hr>
+<h2 id="-iterating-over-arrays" ebook-toc-level-2="" heading="🌀 Iterating Over Arrays ">🌀 Iterating Over Arrays </h2>
+<h3 id="-using-for-loop" ebook-toc-level-3="" heading="🔸 Using <code>for</code> loop ">🔸 Using <code>for</code> loop </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> marks<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>marks<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="-using-for-each-loop" ebook-toc-level-3="" heading="🔸 Using <code>for-each</code> loop ">🔸 Using <code>for-each</code> loop </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> mark <span class="token operator">:</span> marks<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>mark<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><hr>
+<h2 id="-array-properties" ebook-toc-level-2="" heading="📏 Array Properties ">📏 Array Properties </h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>length</code></td>
+<td>Returns size of array (no <code>()</code> like methods)</td>
+</tr>
+<tr>
+<td><code>index</code></td>
+<td>Starts from <code>0</code> and ends at <code>length - 1</code></td>
+</tr>
+</tbody>
+</table>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>marks<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 5</span>
+</code></pre><hr>
+<h2 id="-types-of-arrays" ebook-toc-level-2="" heading="🧊 Types of Arrays ">🧊 Types of Arrays </h2>
+<h3 id="1️⃣-one-dimensional-array" ebook-toc-level-3="" heading="1️⃣ <strong>One-Dimensional Array</strong> ">1️⃣ <strong>One-Dimensional Array</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre><h3 id="2️⃣-multi-dimensional-array-matrix" ebook-toc-level-3="" heading="2️⃣ <strong>Multi-Dimensional Array (Matrix)</strong> ">2️⃣ <strong>Multi-Dimensional Array (Matrix)</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span> matrix <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// 3 rows, 4 columns</span>
+
+matrix<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">3</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>matrix<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token string">" "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><hr>
+<h2 id="-use-cases" ebook-toc-level-2="" heading="🧠 Use Cases ">🧠 Use Cases </h2>
+<ul>
+<li>Storing student grades</li>
+<li>Representing matrices</li>
+<li>Data tables in games</li>
+<li>Lookup tables</li>
+</ul>
+<hr>
+<h2 id="-limitations-of-arrays" ebook-toc-level-2="" heading="❗ Limitations of Arrays ">❗ Limitations of Arrays </h2>
+<table>
+<thead>
+<tr>
+<th>Limitation</th>
+<th>Alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fixed size (non-resizable)</td>
+<td>Use <code>ArrayList</code></td>
+</tr>
+<tr>
+<td>Can hold only one data type</td>
+<td>Use <code>Object[]</code> or Collections</td>
+</tr>
+<tr>
+<td>No built-in functions (e.g. sort, search)</td>
+<td>Use utility classes like <code>Arrays</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="️-utility-methods--javautilarrays" ebook-toc-level-2="" heading="🛠️ Utility Methods – <code>java.util.Arrays</code> ">🛠️ Utility Methods – <code>java.util.Arrays</code> </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-import">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Arrays</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>                     <span class="token comment">// Sorts the array</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Print elements</span>
+
+<span class="token keyword keyword-int">int</span> index <span class="token operator">=</span> <span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">binarySearch</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Binary Search</span>
+</code></pre><hr>
+<h2 id="-common-interview-questions" ebook-toc-level-2="" heading="🔄 Common Interview Questions ">🔄 Common Interview Questions </h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Concept Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reverse an array</td>
+<td>Looping logic</td>
+</tr>
+<tr>
+<td>Find largest/smallest element</td>
+<td>Conditional checking</td>
+</tr>
+<tr>
+<td>Check for duplicates</td>
+<td>Nested loops / HashSet</td>
+</tr>
+<tr>
+<td>Sort an array</td>
+<td>Sorting algorithms / Arrays.sort</td>
+</tr>
+<tr>
+<td>Rotate array elements</td>
+<td>Index manipulation</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-mini-exercise" ebook-toc-level-2="" heading="🧪 Mini Exercise ">🧪 Mini Exercise </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token comment">// Print sum of array elements</span>
+<span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-int">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> n <span class="token operator">:</span> nums<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    sum <span class="token operator">+=</span> n<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Sum = "</span> <span class="token operator">+</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><hr>
+<blockquote>
+<p>🧠 Arrays are the building blocks of data structures. Mastering them will give you a strong foundation for learning Lists, Stacks, Queues, and more!</p>
+</blockquote>
+<h1 id="-how-arrays-are-stored-in-memory-in-java" ebook-toc-level-1="" heading="🧠 How Arrays Are Stored in Memory in Java ">🧠 How Arrays Are Stored in Memory in Java </h1>
+<p>In Java, arrays are <strong>objects</strong> stored in the <strong>heap memory</strong>, and they are accessed through <strong>reference variables</strong> stored in the <strong>stack</strong>. Let's understand this in detail.</p>
+<hr>
+<h2 id="-components-of-array-storage" ebook-toc-level-2="" heading="🔹 Components of Array Storage ">🔹 Components of Array Storage </h2>
+<p>When you declare and initialize an array:</p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre><p>Java stores the array in two parts:</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Memory Location</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reference variable (<code>arr</code>)</td>
+<td>Stack</td>
+<td>Holds the reference (address) to the array</td>
+</tr>
+<tr>
+<td>Actual array object</td>
+<td>Heap</td>
+<td>Contains array metadata and elements</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-memory-representation" ebook-toc-level-2="" heading="🔹 Memory Representation ">🔹 Memory Representation </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">,</span> <span class="token number">40</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><p><strong>Heap Memory (Contiguous Allocation for Elements):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Index</th>
+<th>Address</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0x100</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0x104</td>
+<td>20</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0x108</td>
+<td>30</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0x10C</td>
+<td>40</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0x110</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>If <code>int</code> takes 4 bytes, each value is stored 4 bytes apart.</li>
+<li>The reference variable <code>arr</code> (in the stack) points to the base address <code>0x100</code> of the array in the heap.</li>
+</ul>
+<hr>
+<h2 id="-array-memory-layout-summary" ebook-toc-level-2="" heading="🔹 Array Memory Layout Summary ">🔹 Array Memory Layout Summary </h2>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>[Stack]
++------------+
+| arr: 0x100 |
++------------+
+
+[Heap]
++--------+--------+--------+--------+--------+
+|  10    |  20    |  30    |  40    |  50    |
++--------+--------+--------+--------+--------+
+  0x100   0x104    0x108    0x10C    0x110
+</code></pre><hr>
+<h2 id="-key-points" ebook-toc-level-2="" heading="📌 Key Points ">📌 Key Points </h2>
+<ul>
+<li>Arrays are <strong>objects</strong> in Java, even if they store primitive types.</li>
+<li>The <strong>length</strong> property is stored with the array metadata in the heap.</li>
+<li>Java automatically <strong>bounds-checks</strong> arrays; accessing out-of-bounds throws <code>ArrayIndexOutOfBoundsException</code>.</li>
+<li>Arrays in Java are always <strong>contiguously stored</strong>, ensuring efficient access via index.</li>
+</ul>
+<hr>
+<blockquote>
+<p>💡 Tip: Use <code>System.identityHashCode(arr)</code> to get the memory reference hash (not exact memory address) of the array.</p>
+</blockquote>
+<hr>
+<h2 id="--example-shared-reference-behavior-in-arrays" ebook-toc-level-2="" heading="🔹 🧪 Example: Shared Reference Behavior in Arrays ">🔹 🧪 Example: Shared Reference Behavior in Arrays </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">33</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">47</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">59</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">67</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">98</span><span class="token punctuation">;</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 59</span>
+
+<span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> two <span class="token operator">=</span> arr<span class="token punctuation">;</span>          <span class="token comment">// 'two' now references the same array</span>
+two<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">200</span><span class="token punctuation">;</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 200</span>
+</code></pre><h3 id="-explanation" ebook-toc-level-3="" heading="🔍 Explanation ">🔍 Explanation </h3>
+<ul>
+<li>✅ <code>arr</code> and <code>two</code> both refer to the <strong>same memory location</strong> in heap.</li>
+<li>✅ When we assign <code>two = arr</code>, we are copying the <strong>reference</strong>, not the array itself.</li>
+<li>✅ Modifying <code>two[2] = 200</code> changes the value at index 2 in the original array too.</li>
+<li>✅ That’s why <code>arr[2]</code> also becomes <code>200</code>.</li>
+</ul>
+<hr>
+<h2 id="-memory-visualization" ebook-toc-level-2="" heading="🧬 Memory Visualization ">🧬 Memory Visualization </h2>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>[Stack]
++-----------+       +-----------+
+| arr       |-----&gt; |           |
+| two       |-----&gt; |  [Heap]   |
++-----------+       |-----------|
+                    | [0] = 33  |
+                    | [1] = 47  |
+                    | [2] = 200 |
+                    | [3] = 67  |
+                    | [4] = 98  |
+                    +-----------+
+</code></pre><hr>
+<h2 id="️-key-takeaway" ebook-toc-level-2="" heading="⚠️ Key Takeaway ">⚠️ Key Takeaway </h2>
+<blockquote>
+<p>In Java, assigning one array to another does <strong>not copy values</strong>, it <strong>copies the reference</strong>, so both variables point to the <strong>same memory block</strong> in heap.</p>
+</blockquote>
+<p>This concept is crucial when working with arrays and object references in Java!</p>
+<h1 id="-shared-reference-behavior-of-arrays-when-passed-to-a-function-in-java" ebook-toc-level-1="" heading="🔄 Shared Reference Behavior of Arrays When Passed to a Function in Java ">🔄 Shared Reference Behavior of Arrays When Passed to a Function in Java </h1>
+<p>In Java, when you pass an array to a method, you're <strong>passing the reference to the array object</strong>, not a separate copy of the array. This means <strong>modifications inside the method affect the original array</strong>.</p>
+<hr>
+<h2 id="-example-passing-array-to-a-method" ebook-toc-level-2="" heading="📌 Example: Passing Array to a Method ">📌 Example: Passing Array to a Method </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">modifyArray</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        arr<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">999</span><span class="token punctuation">;</span> <span class="token comment">// Modify index 1</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> numbers <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Before: "</span> <span class="token operator">+</span> numbers<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 20</span>
+        <span class="token function">modifyArray</span><span class="token punctuation">(</span>numbers<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"After: "</span> <span class="token operator">+</span> numbers<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Output: 999</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><hr>
+<h2 id="-explanation-1" ebook-toc-level-2="" heading="🧠 Explanation ">🧠 Explanation </h2>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1️⃣</td>
+<td><code>numbers</code> is declared and initialized in <code>main</code>.</td>
+</tr>
+<tr>
+<td>2️⃣</td>
+<td><code>modifyArray(numbers)</code> passes the <strong>reference</strong> to the <code>modifyArray</code> method.</td>
+</tr>
+<tr>
+<td>3️⃣</td>
+<td>Inside the method, <code>arr[1] = 999</code> modifies the actual array in <strong>heap memory</strong>.</td>
+</tr>
+<tr>
+<td>4️⃣</td>
+<td>After the method call, <code>numbers[1]</code> is now <code>999</code> in the original array.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-memory-representation-1" ebook-toc-level-2="" heading="🧬 Memory Representation ">🧬 Memory Representation </h2>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>[Stack - main()]                 [Stack - modifyArray()]
++-------------------+           +-------------------+
+| numbers (ref)     | ------&gt;   | arr (ref)         |
++-------------------+           +-------------------+
+         |                                |
+         |                                |
+         V                                V
+               [ Heap Memory - Shared Array ]
+               +--------+--------+--------+
+               | 10     | 999    | 30     |
+               +--------+--------+--------+
+                index 0  index 1  index 2
+</code></pre><hr>
+<h2 id="-key-points-1" ebook-toc-level-2="" heading="✅ Key Points ">✅ Key Points </h2>
+<ul>
+<li>Arrays in Java are <strong>passed by value</strong>, but that value is a <strong>reference</strong> to the object.</li>
+<li>Changes made inside the function reflect <strong>outside the function</strong>, as both point to the <strong>same array</strong>.</li>
+<li>This is known as <strong>shared reference behavior</strong>.</li>
+</ul>
+<hr>
+<h2 id="️-gotcha" ebook-toc-level-2="" heading="⚠️ Gotcha ">⚠️ Gotcha </h2>
+<p>If you reassign the reference inside the method (e.g., <code>arr = new int[]{1,2,3};</code>), it <strong>won’t affect</strong> the original array because you're changing what the local reference points to — not the original object.</p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">modifyArray</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    arr <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">// This does NOT affect the original array</span>
+<span class="token punctuation">}</span>
+</code></pre><blockquote>
+<p>💡 To truly copy an array and avoid affecting the original, use <code>Arrays.copyOf()</code> or <code>array.clone()</code>.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>🧪 Use this knowledge to carefully manage side effects when passing arrays to functions.</p>
+</blockquote>
+<h1 id="-object-references-shallow-copy-vs-deep-copy-in-java" ebook-toc-level-1="" heading="🧠 Object References, Shallow Copy vs Deep Copy in Java ">🧠 Object References, Shallow Copy vs Deep Copy in Java </h1>
+<p>In Java, <strong>objects are not passed or assigned directly</strong>, but via <strong>references</strong>. This leads to behaviors like <strong>shared modification</strong>, especially with <strong>mutable objects</strong> like arrays or custom classes.</p>
+<hr>
+<h2 id="-what-is-an-object-reference" ebook-toc-level-2="" heading="🔗 What is an Object Reference? ">🔗 What is an Object Reference? </h2>
+<p>An <strong>object reference</strong> is a variable that <strong>stores the memory address</strong> of an object in the heap, not the object itself.</p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-class">class</span> <span class="token class-name">Student</span> <span class="token punctuation">{</span>
+    <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Student</span> s1 <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        s1<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Alice"</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">Student</span> s2 <span class="token operator">=</span> s1<span class="token punctuation">;</span> <span class="token comment">// s2 points to the same object</span>
+        s2<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Bob"</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>s1<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: Bob</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>🧾 <strong>Explanation</strong>: <code>s1</code> and <code>s2</code> both point to the <strong>same memory location</strong>, so a change via <code>s2</code> reflects in <code>s1</code>.</p>
+<hr>
+<h2 id="-shallow-copy" ebook-toc-level-2="" heading="🧍 Shallow Copy ">🧍 Shallow Copy </h2>
+<p>A <strong>shallow copy</strong> copies the reference of an object — <strong>not its actual content</strong>. So the original and copy share the <strong>same inner objects</strong>.</p>
+<h3 id="-example-4" ebook-toc-level-3="" heading="📌 Example ">📌 Example </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-class">class</span> <span class="token class-name">Student</span> <span class="token punctuation">{</span>
+    <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Student</span> s1 <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        s1<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Alice"</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">Student</span> s2 <span class="token operator">=</span> s1<span class="token punctuation">;</span> <span class="token comment">// Shallow copy</span>
+
+        s2<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Bob"</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>s1<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: Bob</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="-characteristics" ebook-toc-level-3="" heading="📌 Characteristics ">📌 Characteristics </h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Shallow Copy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Memory allocation</td>
+<td>Shared</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>Faster</td>
+</tr>
+<tr>
+<td>Side Effects</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Suitable for</td>
+<td>Immutable or simple objects</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-deep-copy" ebook-toc-level-2="" heading="🧬 Deep Copy ">🧬 Deep Copy </h2>
+<p>A <strong>deep copy</strong> creates a <strong>completely new copy</strong> of the object and all its nested objects — no shared memory.</p>
+<h3 id="-example-using-constructor" ebook-toc-level-3="" heading="📌 Example Using Constructor ">📌 Example Using Constructor </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-class">class</span> <span class="token class-name">Student</span> <span class="token punctuation">{</span>
+    <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+
+    <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-this">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Deep copy constructor</span>
+    <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token class-name">Student</span> s<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-this">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Student</span> s1 <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">"Alice"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">Student</span> s2 <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span>s1<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Deep copy</span>
+
+        s2<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"Bob"</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>s1<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: Alice</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="-characteristics-1" ebook-toc-level-3="" heading="📌 Characteristics ">📌 Characteristics </h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Deep Copy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Memory allocation</td>
+<td>Independent</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>Slower</td>
+</tr>
+<tr>
+<td>Side Effects</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Suitable for</td>
+<td>Mutable or complex objects</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-array-deep-vs-shallow-example" ebook-toc-level-2="" heading="🧪 Array Deep vs Shallow Example ">🧪 Array Deep vs Shallow Example </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> original <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Shallow copy</span>
+<span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> shallow <span class="token operator">=</span> original<span class="token punctuation">;</span>
+
+<span class="token comment">// Deep copy</span>
+<span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> deep <span class="token operator">=</span> original<span class="token punctuation">.</span><span class="token function">clone</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+shallow<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">99</span><span class="token punctuation">;</span>
+deep<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">88</span><span class="token punctuation">;</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>original<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [99, 2, 3]</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>shallow<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// [99, 2, 3]</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>deep<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// [1, 88, 3]</span>
+</code></pre><hr>
+<h2 id="-when-to-use-what" ebook-toc-level-2="" heading="💡 When to Use What? ">💡 When to Use What? </h2>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple, performance-critical task</td>
+<td>Shallow Copy</td>
+</tr>
+<tr>
+<td>Handling mutable or nested objects</td>
+<td>Deep Copy</td>
+</tr>
+<tr>
+<td>Preventing unintended changes</td>
+<td>Deep Copy</td>
+</tr>
+<tr>
+<td>Working with immutable objects</td>
+<td>Shallow Copy</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<blockquote>
+<p>🧠 <strong>Key Takeaway</strong>: Java uses <strong>reference semantics</strong>. Understand when you're copying <strong>data vs reference</strong>, and use <strong>deep copy</strong> when isolation of data is essential.</p>
+</blockquote>
+<h1 id="-stacks-in-java" ebook-toc-level-1="" heading="📚 Stacks in Java ">📚 Stacks in Java </h1>
+<p>A <strong>stack</strong> is a <strong>linear data structure</strong> that follows the <strong>Last In, First Out (LIFO)</strong> principle. This means that the <strong>last element added</strong> to the stack is the <strong>first one to be removed</strong>.</p>
+<hr>
+<h2 id="-why-use-a-stack" ebook-toc-level-2="" heading="🔹 Why Use a Stack? ">🔹 Why Use a Stack? </h2>
+<p>✅ Supports <strong>undo/redo</strong> operations (e.g., text editors)<br>
+✅ Manages function calls in <strong>recursion</strong><br>
+✅ Used in <strong>expression evaluation</strong> (e.g., parsing expressions)<br>
+✅ Backtracking (e.g., <strong>maze solving, browser history</strong>)</p>
+<hr>
+<h2 id="-stack-operations" ebook-toc-level-2="" heading="✅ Stack Operations ">✅ Stack Operations </h2>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>push(x)</code></td>
+<td>Adds element <code>x</code> to the top of the stack</td>
+</tr>
+<tr>
+<td><code>pop()</code></td>
+<td>Removes and returns the top element</td>
+</tr>
+<tr>
+<td><code>peek()</code></td>
+<td>Returns the top element <strong>without removing</strong> it</td>
+</tr>
+<tr>
+<td><code>isEmpty()</code></td>
+<td>Returns <code>true</code> if stack is empty</td>
+</tr>
+<tr>
+<td><code>size()</code></td>
+<td>Returns the number of elements in the stack</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="️-implementing-stack-in-java" ebook-toc-level-2="" heading="🛠️ Implementing Stack in Java ">🛠️ Implementing Stack in Java </h2>
+<p>Java provides <strong>two ways</strong> to implement a stack:</p>
+<h3 id="1️⃣-using-stack-class-java-collection-framework" ebook-toc-level-3="" heading="1️⃣ Using <code>Stack</code> Class (Java Collection Framework) ">1️⃣ Using <code>Stack</code> Class (Java Collection Framework) </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-import">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Stack</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">&gt;</span></span> stack <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 30</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 30</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// false</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>✅ <strong>Pros</strong>: Built-in, optimized<br>
+❌ <strong>Cons</strong>: Synchronized (slower for multi-threading)</p>
+<hr>
+<h3 id="2️⃣-implementing-stack-using-an-array-manual-approach" ebook-toc-level-3="" heading="2️⃣ Implementing Stack Using an Array (Manual Approach) ">2️⃣ Implementing Stack Using an Array (Manual Approach) </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-class">class</span> <span class="token class-name">StackArray</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-private">private</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">;</span>
+    <span class="token keyword keyword-private">private</span> <span class="token keyword keyword-int">int</span> top<span class="token punctuation">;</span>
+    <span class="token keyword keyword-private">private</span> <span class="token keyword keyword-int">int</span> capacity<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token class-name">StackArray</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> size<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        arr <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token keyword keyword-int">int</span><span class="token punctuation">[</span>size<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        capacity <span class="token operator">=</span> size<span class="token punctuation">;</span>
+        top <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-void">void</span> <span class="token function">push</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>top <span class="token operator">==</span> capacity <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Stack Overflow"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword keyword-return">return</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        arr<span class="token punctuation">[</span><span class="token operator">++</span>top<span class="token punctuation">]</span> <span class="token operator">=</span> x<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-int">int</span> <span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>top <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Stack Underflow"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword keyword-return">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-return">return</span> arr<span class="token punctuation">[</span>top<span class="token operator">--</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-int">int</span> <span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-return">return</span> <span class="token punctuation">(</span>top <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">?</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">:</span> arr<span class="token punctuation">[</span>top<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-boolean">boolean</span> <span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-return">return</span> top <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">StackArray</span> stack <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">StackArray</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 20</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 20</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// false</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>✅ <strong>Pros</strong>: Faster, thread-safe<br>
+❌ <strong>Cons</strong>: Fixed size, needs resizing</p>
+<hr>
+<h2 id="-stack-using-linked-list-dynamic" ebook-toc-level-2="" heading="🔄 Stack Using Linked List (Dynamic) ">🔄 Stack Using Linked List (Dynamic) </h2>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-class">class</span> <span class="token class-name">Node</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> data<span class="token punctuation">;</span>
+    <span class="token class-name">Node</span> next<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-class">class</span> <span class="token class-name">StackLinkedList</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-private">private</span> <span class="token class-name">Node</span> top<span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token class-name">StackLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-this">this</span><span class="token punctuation">.</span>top <span class="token operator">=</span> <span class="token keyword keyword-null">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-void">void</span> <span class="token function">push</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Node</span> newNode <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Node</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        newNode<span class="token punctuation">.</span>data <span class="token operator">=</span> x<span class="token punctuation">;</span>
+        newNode<span class="token punctuation">.</span>next <span class="token operator">=</span> top<span class="token punctuation">;</span>
+        top <span class="token operator">=</span> newNode<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-int">int</span> <span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>top <span class="token operator">==</span> <span class="token keyword keyword-null">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Stack Underflow"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword keyword-return">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-int">int</span> value <span class="token operator">=</span> top<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+        top <span class="token operator">=</span> top<span class="token punctuation">.</span>next<span class="token punctuation">;</span>
+        <span class="token keyword keyword-return">return</span> value<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-int">int</span> <span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-return">return</span> <span class="token punctuation">(</span>top <span class="token operator">==</span> <span class="token keyword keyword-null">null</span><span class="token punctuation">)</span> <span class="token operator">?</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">:</span> top<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-boolean">boolean</span> <span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-return">return</span> top <span class="token operator">==</span> <span class="token keyword keyword-null">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">StackLinkedList</span> stack <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">StackLinkedList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 20</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 20</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// false</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>✅ <strong>Pros</strong>: Dynamic size, no overflow<br>
+❌ <strong>Cons</strong>: More memory usage (extra pointers)</p>
+<hr>
+<h2 id="-stack-applications" ebook-toc-level-2="" heading="🚀 Stack Applications ">🚀 Stack Applications </h2>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Function Calls</td>
+<td>Call Stack in recursion</td>
+</tr>
+<tr>
+<td>Undo/Redo</td>
+<td>Text editors</td>
+</tr>
+<tr>
+<td>Parentheses Matching</td>
+<td>Syntax validation</td>
+</tr>
+<tr>
+<td>Postfix &amp; Prefix Evaluation</td>
+<td>Expression parsing</td>
+</tr>
+<tr>
+<td>DFS (Depth First Search)</td>
+<td>Graph traversal</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-key-takeaways" ebook-toc-level-2="" heading="💡 Key Takeaways ">💡 Key Takeaways </h2>
+<p>1️⃣ <strong>Stack follows LIFO</strong> (Last In, First Out).<br>
+2️⃣ Java provides <strong><code>Stack&lt;T&gt;</code> class</strong>, but manual implementations offer more flexibility.<br>
+3️⃣ <strong>Array-based stacks</strong> are faster but have a fixed size.<br>
+4️⃣ <strong>Linked list stacks</strong> are dynamic but use extra memory.<br>
+5️⃣ Stacks are useful in <strong>recursion, expression evaluation, and backtracking</strong>.</p>
+<hr>
+<blockquote>
+<p>🔥 <strong>Tip:</strong> Always use <code>try { pop(); } catch (EmptyStackException e) {}</code> when working with Java’s <code>Stack</code> class to handle errors safely.</p>
+</blockquote>
+<h3 id="infix-postfix-and-prefix-notations-in-java" ebook-toc-level-3="" heading="<strong>Infix, Postfix, and Prefix Notations in Java</strong> "><strong>Infix, Postfix, and Prefix Notations in Java</strong> </h3>
+<p>In mathematical expressions, operators and operands can be arranged in different ways, leading to three main notations: <strong>Infix</strong>, <strong>Postfix</strong>, and <strong>Prefix</strong>. Understanding these notations is crucial for expression evaluation, parsing, and conversion, especially in Java, where stacks are often used for such operations.</p>
+<hr>
+<h2 id="1-infix-notation" ebook-toc-level-2="" heading="<strong>1. Infix Notation</strong> "><strong>1. Infix Notation</strong> </h2>
+<h3 id="definition" ebook-toc-level-3="" heading="<strong>Definition:</strong> "><strong>Definition:</strong> </h3>
+<ul>
+<li>In <strong>infix notation</strong>, the operator is placed <strong>between</strong> operands.</li>
+<li>This is the standard way humans write mathematical expressions.</li>
+<li>Example:<pre data-role="codeBlock" data-info="" class="language-text"><code>(3 + 5) * 2
+</code></pre></li>
+</ul>
+<h3 id="evaluation-in-java" ebook-toc-level-3="" heading="<strong>Evaluation in Java:</strong> "><strong>Evaluation in Java:</strong> </h3>
+<ul>
+<li>Infix expressions follow <strong>operator precedence</strong> and <strong>associativity</strong> rules.</li>
+<li>Java evaluates infix expressions directly using arithmetic operators and parentheses.</li>
+<li><strong>Example in Java:</strong><pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span> result <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">3</span> <span class="token operator">+</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">;</span> <span class="token comment">// result = 16</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></li>
+<li><strong>Limitations:</strong>
+<ul>
+<li>Requires parsing and precedence handling when evaluated from a string.</li>
+<li>Cannot be easily processed by computers without additional logic.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="2-postfix-notation-reverse-polish-notation---rpn" ebook-toc-level-2="" heading="<strong>2. Postfix Notation (Reverse Polish Notation - RPN)</strong> "><strong>2. Postfix Notation (Reverse Polish Notation - RPN)</strong> </h2>
+<h3 id="definition-1" ebook-toc-level-3="" heading="<strong>Definition:</strong> "><strong>Definition:</strong> </h3>
+<ul>
+<li>In <strong>postfix notation</strong>, the operator is placed <strong>after</strong> the operands.</li>
+<li>No need for parentheses since the order of operations is unambiguous.</li>
+<li>Example:<pre data-role="codeBlock" data-info="" class="language-text"><code>3 5 + 2 *
+</code></pre>This is equivalent to <code>(3 + 5) * 2</code>.</li>
+</ul>
+<h3 id="evaluation-in-java-using-stack" ebook-toc-level-3="" heading="<strong>Evaluation in Java (Using Stack):</strong> "><strong>Evaluation in Java (Using Stack):</strong> </h3>
+<ul>
+<li>
+<p>Postfix expressions can be evaluated using a <strong>stack</strong>:</p>
+<ol>
+<li>Scan the expression from left to right.</li>
+<li>Push operands onto the stack.</li>
+<li>When an operator is encountered, pop two operands, apply the operator, and push the result back.</li>
+</ol>
+</li>
+<li>
+<p><strong>Example in Java:</strong></p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-import">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token operator">*</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">PostfixEvaluation</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-int">int</span> <span class="token function">evaluatePostfix</span><span class="token punctuation">(</span><span class="token class-name">String</span> exp<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">&gt;</span></span> stack <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-char">char</span> ch <span class="token operator">:</span> exp<span class="token punctuation">.</span><span class="token function">toCharArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token class-name">Character</span><span class="token punctuation">.</span><span class="token function">isDigit</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>ch <span class="token operator">-</span> <span class="token char">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Convert char to int</span>
+            <span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token punctuation">{</span>
+                <span class="token keyword keyword-int">int</span> v2 <span class="token operator">=</span> stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword keyword-int">int</span> v1 <span class="token operator">=</span> stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword keyword-switch">switch</span> <span class="token punctuation">(</span>ch<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'+'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">+</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'-'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">-</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'*'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">*</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'/'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">/</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-return">return</span> stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">String</span> postfix <span class="token operator">=</span> <span class="token string">"35+2*"</span><span class="token punctuation">;</span> <span class="token comment">// (3+5)*2</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token function">evaluatePostfix</span><span class="token punctuation">(</span>postfix<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 16</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+<li>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>No need for precedence handling.</li>
+<li>Easy to evaluate using stacks.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-prefix-notation-polish-notation" ebook-toc-level-2="" heading="<strong>3. Prefix Notation (Polish Notation)</strong> "><strong>3. Prefix Notation (Polish Notation)</strong> </h2>
+<h3 id="definition-2" ebook-toc-level-3="" heading="<strong>Definition:</strong> "><strong>Definition:</strong> </h3>
+<ul>
+<li>In <strong>prefix notation</strong>, the operator is placed <strong>before</strong> the operands.</li>
+<li>Like postfix, no parentheses are required.</li>
+<li>Example:<pre data-role="codeBlock" data-info="" class="language-text"><code>* + 3 5 2
+</code></pre>This is equivalent to <code>(3 + 5) * 2</code>.</li>
+</ul>
+<h3 id="evaluation-in-java-using-stack-1" ebook-toc-level-3="" heading="<strong>Evaluation in Java (Using Stack):</strong> "><strong>Evaluation in Java (Using Stack):</strong> </h3>
+<ul>
+<li>
+<p>Prefix expressions can be evaluated similarly to postfix:</p>
+<ol>
+<li>Scan the expression <strong>right to left</strong>.</li>
+<li>Push operands onto the stack.</li>
+<li>When an operator is encountered, pop two operands, apply the operator, and push the result back.</li>
+</ol>
+</li>
+<li>
+<p><strong>Example in Java:</strong></p>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-import">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token operator">*</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">PrefixEvaluation</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-int">int</span> <span class="token function">evaluatePrefix</span><span class="token punctuation">(</span><span class="token class-name">String</span> exp<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">&gt;</span></span> stack <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> exp<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword keyword-char">char</span> ch <span class="token operator">=</span> exp<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token class-name">Character</span><span class="token punctuation">.</span><span class="token function">isDigit</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>ch <span class="token operator">-</span> <span class="token char">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token punctuation">{</span>
+                <span class="token keyword keyword-int">int</span> v1 <span class="token operator">=</span> stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword keyword-int">int</span> v2 <span class="token operator">=</span> stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword keyword-switch">switch</span> <span class="token punctuation">(</span>ch<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'+'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">+</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'-'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">-</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'*'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">*</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                    <span class="token keyword keyword-case">case</span> <span class="token char">'/'</span><span class="token operator">:</span> stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v1 <span class="token operator">/</span> v2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword keyword-return">return</span> stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">String</span> prefix <span class="token operator">=</span> <span class="token string">"*+352"</span><span class="token punctuation">;</span> <span class="token comment">// (3+5)*2</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token function">evaluatePrefix</span><span class="token punctuation">(</span>prefix<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 16</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+<li>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>No need for precedence handling.</li>
+<li>Useful in <strong>compilers and expression evaluation</strong>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="conversion-between-notations" ebook-toc-level-2="" heading="<strong>Conversion Between Notations</strong> "><strong>Conversion Between Notations</strong> </h2>
+<table>
+<thead>
+<tr>
+<th>Conversion</th>
+<th>Algorithm Used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Infix → Postfix</td>
+<td><strong>Shunting-yard algorithm</strong> (Uses stack)</td>
+</tr>
+<tr>
+<td>Infix → Prefix</td>
+<td>Reverse infix → Convert to postfix → Reverse result</td>
+</tr>
+<tr>
+<td>Postfix → Infix</td>
+<td>Process using stack, insert operators at correct places</td>
+</tr>
+<tr>
+<td>Prefix → Infix</td>
+<td>Process right-to-left using stack</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Example: Converting Infix to Postfix in Java</strong><pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-import">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token operator">*</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">InfixToPostfix</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-int">int</span> <span class="token function">precedence</span><span class="token punctuation">(</span><span class="token keyword keyword-char">char</span> ch<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>ch <span class="token operator">==</span> <span class="token char">'+'</span> <span class="token operator">||</span> ch <span class="token operator">==</span> <span class="token char">'-'</span><span class="token punctuation">)</span> <span class="token keyword keyword-return">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>ch <span class="token operator">==</span> <span class="token char">'*'</span> <span class="token operator">||</span> ch <span class="token operator">==</span> <span class="token char">'/'</span><span class="token punctuation">)</span> <span class="token keyword keyword-return">return</span> <span class="token number">2</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-return">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token class-name">String</span> <span class="token function">infixToPostfix</span><span class="token punctuation">(</span><span class="token class-name">String</span> exp<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Character</span><span class="token punctuation">&gt;</span></span> stack <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Stack</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">StringBuilder</span> result <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">StringBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-char">char</span> ch <span class="token operator">:</span> exp<span class="token punctuation">.</span><span class="token function">toCharArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token class-name">Character</span><span class="token punctuation">.</span><span class="token function">isDigit</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                result<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>ch <span class="token operator">==</span> <span class="token char">'('</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>ch <span class="token operator">==</span> <span class="token char">')'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>stack<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> stack<span class="token punctuation">.</span><span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token char">'('</span><span class="token punctuation">)</span>
+                    result<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Remove '('</span>
+            <span class="token punctuation">}</span> <span class="token keyword keyword-else">else</span> <span class="token punctuation">{</span>
+                <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>stack<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token function">precedence</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span> <span class="token operator">&lt;=</span> <span class="token function">precedence</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">peek</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+                    result<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>stack<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+            result<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword keyword-return">return</span> result<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">String</span> infix <span class="token operator">=</span> <span class="token string">"3+5*2"</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token function">infixToPostfix</span><span class="token punctuation">(</span>infix<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: "352*+"</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+</ul>
+<hr>
+<h2 id="comparison-table" ebook-toc-level-2="" heading="<strong>Comparison Table</strong> "><strong>Comparison Table</strong> </h2>
+<table>
+<thead>
+<tr>
+<th><strong>Notation</strong></th>
+<th><strong>Expression Example</strong></th>
+<th><strong>Evaluation Complexity</strong></th>
+<th><strong>Ease of Use</strong></th>
+<th><strong>Usage</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infix</strong></td>
+<td><code>(3 + 5) * 2</code></td>
+<td>Medium (Handles precedence)</td>
+<td>Easy for humans</td>
+<td>Used in daily math</td>
+</tr>
+<tr>
+<td><strong>Postfix</strong></td>
+<td><code>3 5 + 2 *</code></td>
+<td>Fast (Stack-based)</td>
+<td>Hard to write manually</td>
+<td>Used in compilers, calculators</td>
+</tr>
+<tr>
+<td><strong>Prefix</strong></td>
+<td><code>* + 3 5 2</code></td>
+<td>Fast (Stack-based)</td>
+<td>Hard to write manually</td>
+<td>Used in AI, parsing</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="conclusion" ebook-toc-level-2="" heading="<strong>Conclusion</strong> "><strong>Conclusion</strong> </h2>
+<ul>
+<li><strong>Infix notation</strong> is human-friendly but requires precedence handling.</li>
+<li><strong>Postfix notation</strong> is easier to evaluate using stacks, making it suitable for <strong>compilers</strong> and <strong>calculators</strong>.</li>
+<li><strong>Prefix notation</strong> is useful in <strong>recursive computations</strong> and <strong>expression trees</strong>.</li>
+</ul>
+<p>Java provides powerful <strong>stack-based solutions</strong> for evaluating and converting expressions between these notations, making it a core concept in <strong>data structures, algorithms, and compilers</strong>. 🚀</p>
+<h3 id="fundamental-conversions-between-strings-characters-and-numbers-in-java" ebook-toc-level-3="" heading="<strong>Fundamental Conversions Between Strings, Characters, and Numbers in Java</strong> "><strong>Fundamental Conversions Between Strings, Characters, and Numbers in Java</strong> </h3>
+<p>Understanding how to efficiently convert between <strong>strings, characters, and numeric values</strong> is crucial for handling data operations in Java. This note establishes a <strong>common base</strong> for these conversions, ensuring a structured understanding for all future operations.</p>
+<hr>
+<h2 id="1-converting-a-numeric-character-in-a-string-to-an-integer" ebook-toc-level-2="" heading="<strong>1. Converting a Numeric Character in a String to an Integer</strong> "><strong>1. Converting a Numeric Character in a String to an Integer</strong> </h2>
+<p>💡 <strong>Subtract <code>'0'</code> from a character digit to get its integer value.</strong></p>
+<h3 id="why" ebook-toc-level-3="" heading="<strong>Why?</strong> "><strong>Why?</strong> </h3>
+<ul>
+<li>Characters are stored as <strong>ASCII/Unicode values</strong>.</li>
+<li><code>'0'</code> (zero character) has an ASCII value of <strong>48</strong>.</li>
+<li>Any digit character <code>'0'</code> to <code>'9'</code> has a corresponding ASCII value from <strong>48 to 57</strong>.</li>
+<li>Subtracting <code>'0'</code> extracts the actual numeric value.</li>
+</ul>
+<h3 id="example" ebook-toc-level-3="" heading="<strong>Example:</strong> "><strong>Example:</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-char">char</span> digit <span class="token operator">=</span> <span class="token char">'7'</span><span class="token punctuation">;</span>  
+<span class="token keyword keyword-int">int</span> num <span class="token operator">=</span> digit <span class="token operator">-</span> <span class="token char">'0'</span><span class="token punctuation">;</span> <span class="token comment">// '7' (ASCII 55) - '0' (ASCII 48) = 7</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 7</span>
+</code></pre><h3 id="usage" ebook-toc-level-3="" heading="<strong>Usage:</strong> "><strong>Usage:</strong> </h3>
+<p>✔ Extracting integer values from numeric characters in strings.<br>
+✔ Efficient for handling <strong>single-digit</strong> character conversions.</p>
+<hr>
+<h2 id="2-converting-a-string-representation-of-a-number-to-an-integer" ebook-toc-level-2="" heading="<strong>2. Converting a String Representation of a Number to an Integer</strong> "><strong>2. Converting a String Representation of a Number to an Integer</strong> </h2>
+<p>💡 <strong>Use <code>Integer.parseInt(str)</code> or <code>Integer.valueOf(str)</code>.</strong></p>
+<h3 id="example-1" ebook-toc-level-3="" heading="<strong>Example:</strong> "><strong>Example:</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token class-name">String</span> numStr <span class="token operator">=</span> <span class="token string">"123"</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-int">int</span> number <span class="token operator">=</span> <span class="token class-name">Integer</span><span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span>numStr<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Converts "123" → 123</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>number<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: 123</span>
+</code></pre><p>✔ Works for <strong>multi-digit</strong> numbers.<br>
+✔ <strong><code>Integer.valueOf(str)</code></strong> returns an <code>Integer</code> object instead of <code>int</code>.</p>
+<hr>
+<h2 id="3-converting-a-single-digit-integer-to-a-character" ebook-toc-level-2="" heading="<strong>3. Converting a Single Digit Integer to a Character</strong> "><strong>3. Converting a Single Digit Integer to a Character</strong> </h2>
+<p>💡 <strong>Add <code>'0'</code> to an integer to get its character equivalent.</strong></p>
+<h3 id="why-1" ebook-toc-level-3="" heading="<strong>Why?</strong> "><strong>Why?</strong> </h3>
+<ul>
+<li>Just as subtraction (<code>'7' - '0'</code>) extracts a numeric value,</li>
+<li>Adding <code>'0'</code> shifts an integer into its ASCII character range.</li>
+</ul>
+<h3 id="example-2" ebook-toc-level-3="" heading="<strong>Example:</strong> "><strong>Example:</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span> num <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-char">char</span> digitChar <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword keyword-char">char</span><span class="token punctuation">)</span> <span class="token punctuation">(</span>num <span class="token operator">+</span> <span class="token char">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 5 + ASCII 48 = '5'</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>digitChar<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: '5'</span>
+</code></pre><p>✔ Efficient for <strong>single-digit numbers</strong>.</p>
+<hr>
+<h2 id="4-converting-any-number-to-a-string" ebook-toc-level-2="" heading="<strong>4. Converting Any Number to a String</strong> "><strong>4. Converting Any Number to a String</strong> </h2>
+<p>💡 <strong>Concatenate with <code>""</code> or use <code>String.valueOf(num)</code>.</strong></p>
+<h3 id="examples" ebook-toc-level-3="" heading="<strong>Examples:</strong> "><strong>Examples:</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-int">int</span> num <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> str1 <span class="token operator">=</span> num <span class="token operator">+</span> <span class="token string">""</span><span class="token punctuation">;</span>  <span class="token comment">// Implicit conversion using concatenation</span>
+<span class="token class-name">String</span> str2 <span class="token operator">=</span> <span class="token class-name">String</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Explicit conversion</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>str1<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: "123"</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>str2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: "123"</span>
+</code></pre><p>✔ Works for <strong>all numeric types (<code>int</code>, <code>double</code>, <code>float</code>, etc.)</strong><br>
+✔ <strong>Preferred:</strong> <code>String.valueOf(num)</code>, as it avoids unnecessary concatenation.</p>
+<hr>
+<h2 id="5-converting-a-character-to-a-string" ebook-toc-level-2="" heading="<strong>5. Converting a Character to a String</strong> "><strong>5. Converting a Character to a String</strong> </h2>
+<p>💡 <strong>Concatenate with <code>""</code> or use <code>Character.toString(ch)</code>.</strong></p>
+<h3 id="example-3" ebook-toc-level-3="" heading="<strong>Example:</strong> "><strong>Example:</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token keyword keyword-char">char</span> ch <span class="token operator">=</span> <span class="token char">'A'</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> str1 <span class="token operator">=</span> ch <span class="token operator">+</span> <span class="token string">""</span><span class="token punctuation">;</span>  <span class="token comment">// Implicit conversion</span>
+<span class="token class-name">String</span> str2 <span class="token operator">=</span> <span class="token class-name">Character</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Explicit conversion</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>str1<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: "A"</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>str2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: "A"</span>
+</code></pre><p>✔ Useful for handling <strong>single characters in string operations</strong>.</p>
+<hr>
+<h2 id="6-converting-a-string-to-a-character-array" ebook-toc-level-2="" heading="<strong>6. Converting a String to a Character Array</strong> "><strong>6. Converting a String to a Character Array</strong> </h2>
+<p>💡 <strong>Use <code>toCharArray()</code> to break a string into individual characters.</strong></p>
+<h3 id="example-4" ebook-toc-level-3="" heading="<strong>Example:</strong> "><strong>Example:</strong> </h3>
+<pre data-role="codeBlock" data-info="java" class="language-java java"><code><span class="token class-name">String</span> word <span class="token operator">=</span> <span class="token string">"Hello"</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-char">char</span><span class="token punctuation">[</span><span class="token punctuation">]</span> charArray <span class="token operator">=</span> word<span class="token punctuation">.</span><span class="token function">toCharArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>charArray<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: [H, e, l, l, o]</span>
+</code></pre><p>✔ Useful for iterating over characters in a string.</p>
+<hr>
+<h2 id="conclusion-universal-conversion-rules" ebook-toc-level-2="" heading="<strong>Conclusion: Universal Conversion Rules</strong> "><strong>Conclusion: Universal Conversion Rules</strong> </h2>
+<table>
+<thead>
+<tr>
+<th>Conversion</th>
+<th>Approach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>String <strong>→</strong> Integer</td>
+<td><code>Integer.parseInt(str)</code></td>
+</tr>
+<tr>
+<td>String <strong>→</strong> Character Array</td>
+<td><code>str.toCharArray()</code></td>
+</tr>
+<tr>
+<td>Single Character <strong>→</strong> Integer</td>
+<td><code>ch - '0'</code></td>
+</tr>
+<tr>
+<td>Integer <strong>→</strong> Single Character</td>
+<td><code>(char) (num + '0')</code></td>
+</tr>
+<tr>
+<td>Number <strong>→</strong> String</td>
+<td><code>num + ""</code> OR <code>String.valueOf(num)</code></td>
+</tr>
+<tr>
+<td>Character <strong>→</strong> String</td>
+<td><code>ch + ""</code> OR <code>Character.toString(ch)</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="key-takeaways" ebook-toc-level-3="" heading="<strong>Key Takeaways:</strong> "><strong>Key Takeaways:</strong> </h3>
+<ol>
+<li><strong>Subtract <code>'0'</code></strong> to convert a numeric character to an integer.</li>
+<li><strong>Add <code>'0'</code></strong> to convert an integer to a numeric character.</li>
+<li><strong>Concatenation (<code>"" +</code>)</strong> is a quick way to convert any number or character to a string.</li>
+<li><strong>Use <code>String.valueOf()</code></strong> for efficient numeric-to-string conversion.</li>
+<li><strong>Use <code>toCharArray()</code></strong> for character-level string processing.</li>
+</ol>
+<p>This foundational understanding will help in <strong>string manipulations, numerical operations, and type conversions</strong> across Java programs. 🚀</p>
+</div></body></html>
+    </div>
+  </body>
+</html>
