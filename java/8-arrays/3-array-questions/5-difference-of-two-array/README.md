@@ -6,6 +6,8 @@ Your task is to compute the difference between these two numbers (`n2 - n1`) and
 
 The result should also be stored in an array, following the same format.
 
+Assumption: Second array is always greater.
+
 ---
 
 #### Input Format
