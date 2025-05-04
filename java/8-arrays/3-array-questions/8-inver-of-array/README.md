@@ -1,4 +1,3 @@
-```md
 # Inverse of an Array in Java
 
 ## Problem Statement  
