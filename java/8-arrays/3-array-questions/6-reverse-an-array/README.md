@@ -1,5 +1,4 @@
 
-```md
 # Reverse an Array in Java (User Input)
 
 ## Problem Statement  
