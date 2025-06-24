@@ -2,10 +2,10 @@ import java.util.*;
 
 public class main {
 
-    public static class LLToStackAdapter {
+    public static class LLToQueueAdapter {
         LinkedList<Integer> list;
 
-        public LLToStackAdapter() {
+        public LLToQueueAdapter() {
             list = new LinkedList<>();
         }
 
@@ -13,22 +13,22 @@ public class main {
             return list.size();
         }
 
-        void push(int val) {
-            list.addFirst(val);
+        void add(int val) {
+            list.addLast(val);
         }
 
-        int pop() {
+        int remove() {
             if (size() == 0) {
-                System.out.println("Stack underflow");
+                System.out.println("Queue underflow");
                 return -1;
             } else {
                 return list.removeFirst();
             }
         }
 
-        int top() {
+        int peek() {
             if (size() == 0) {
-                System.out.println("Stack underflow");
+                System.out.println("Queue underflow");
                 return -1;
             } else {
                 return list.getFirst();
@@ -38,26 +38,26 @@ public class main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LLToStackAdapter stack = new LLToStackAdapter();
+        LLToQueueAdapter queue = new LLToQueueAdapter();
 
         while (true) {
             String command = sc.nextLine();
 
-            if (command.startsWith("push")) {
+            if (command.startsWith("add")) {
                 int val = Integer.parseInt(command.split(" ")[1]);
-                stack.push(val);
-            } else if (command.equals("pop")) {
-                int val = stack.pop();
+                queue.add(val);
+            } else if (command.equals("remove")) {
+                int val = queue.remove();
                 if (val != -1) {
                     System.out.println(val);
                 }
-            } else if (command.equals("top")) {
-                int val = stack.top();
+            } else if (command.equals("peek")) {
+                int val = queue.peek();
                 if (val != -1) {
                     System.out.println(val);
                 }
             } else if (command.equals("size")) {
-                System.out.println(stack.size());
+                System.out.println(queue.size());
             } else if (command.equals("quit")) {
                 break;
             }

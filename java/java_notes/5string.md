@@ -1011,5 +1011,3 @@ These formulas are helpful for:
 - Understanding underlying character operations
 
 ---
-
-Let me know if you want to add code snippets or visualize this with an ASCII table!
