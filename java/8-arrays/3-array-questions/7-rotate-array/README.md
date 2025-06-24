@@ -1,5 +1,3 @@
-
-```md
 # Rotate an Array in Java (User Input)
 
 ## Problem Statement  
